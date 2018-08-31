@@ -1,0 +1,26 @@
+{
+    "name": "sensors",
+    "version": "0.1.0",
+    "description": "Sensors package",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.6.7",
+        "Grove": "github:seeed-studio/pxt-grove#v0.1.0"
+    },
+    "files": [
+        "README.md",
+        "sensors.ts",
+        "sensors.cpp",
+        "_locales/pt-br/sensors-strings.json",
+        "_locales/es/sensors-strings.json",
+        "_locales/en/sensors-strings.json",
+        "_locales/pt-br/sensors-jsdoc-strings.json",
+        "_locales/es/sensors-jsdoc-strings.json",
+        "_locales/en/sensors-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
